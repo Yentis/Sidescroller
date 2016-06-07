@@ -1,0 +1,58 @@
+Unity Player [version: Unity 4.3.1f1_cebd4d9b5122]
+
+Debug.exe caused an Access Violation (0xc0000005)
+  in module Debug.exe at 0033:265f0227.
+
+Error occurred at 2014-06-03_200838.
+C:\Users\Yentl\Desktop\sidescroller\Debug.exe, run by Yentl.
+44% memory in use.
+8192 MB physical memory [4564 MB free].
+8768 MB paging file [4536 MB free].
+134217728 MB user address space [134217274 MB free].
+Read from location 000000e8 caused an access violation.
+
+Context:
+RDI:    0x07458540  RSI: 0x0defe608  RAX:   0x00000009
+RBX:    0x0defe708  RCX: 0x0744c7f8  RDX:   0x00000000
+RIP:    0x265f0227  RBP: 0x00000001  SegCs: 0x00000033
+EFlags: 0x00010246  RSP: 0x09b4de08  SegSs: 0x0000002b
+R8:    0x00000000  R9: 0x036ba310  R10:   0x0360c848
+R11:    0x0000002a  R12: 0x00000000  R13:   0x00000009
+R14:    0x0defe608  R15: 0x08f958b8
+
+Bytes at CS:EIP:
+49 39 94 c0 a0 00 00 00 48 63 05 3a 9f ab 00 b9 Module 1
+C:\WINDOWS\SYSTEM32\xinput1_3.dll
+Image Base: 0x00400000  Image Size: 0x0001e000
+File Size:  107368      File Time:  2007-04-04_195422
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft? DirectX for Windows?
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.18.944.0
+   ProdVer:    9.18.944.0
+
+Module 2
+C:\Program Files (x86)\ATI Technologies\HydraVision\HydraDMH64.dll
+Image Base: 0x10000000  Image Size: 0x00041000
+File Size:  241664      File Time:  2013-11-22_112518
+Version:
+   Company:    AMD
+   Product:    AMD HydraVision Desktop Manager
+   FileDesc:   HydraDMH
+   FileVer:    4.0.66.0
+   ProdVer:    4.0.66.0
+
+Module 3
+C:\WINDOWS\SYSTEM32\atiumd6a.dll
+Image Base: 0x674d0000  Image Size: 0x00791000
+File Size:  7892000     File Time:  2014-05-23_042738
+Version:
+   Company:    Advanced Micro Devices, Inc. 
+   Product:    Advanced Micro Devices, Inc. Radeon Video Acceleration Universal Driver
+   FileDesc:   Radeon Video Acceleration Universal Driver
+   FileVer:    8.14.10.460
+   ProdVer:    8.14.10.460
+
+
+== [end of error.log] ==

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A60C62A5-256F-F1FA-D059-2FFB73192CFA}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;UNITY_64;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Characters\fightBOT (free)\script\robo_animationCheck_free.js" />
+     <Compile Include="Assets\Fantasy Art Package\Sources\Models\Miner\AnimationSpeed.js" />
+     <Compile Include="Assets\GUI\Necromancer GUI\GUITestScript.js" />
+     <Compile Include="Assets\KBH_character\Scripts\3rd person\Idle_Cam.js" />
+     <Compile Include="Assets\Outside Assets\Scripts\FPX\RayDestroy.js" />
+     <Compile Include="Assets\Scripts\Animating.js" />
+     <Compile Include="Assets\Scripts\AttackTrigger.js" />
+     <Compile Include="Assets\Scripts\Boss2head.js" />
+     <Compile Include="Assets\Scripts\Boss2head2.js" />
+     <Compile Include="Assets\Scripts\Credits.js" />
+     <Compile Include="Assets\Scripts\Deurtrigger.js" />
+     <Compile Include="Assets\Scripts\Door.js" />
+     <Compile Include="Assets\Scripts\Ending.js" />
+     <Compile Include="Assets\Scripts\EnemyAI.js" />
+     <Compile Include="Assets\Scripts\EnemyAI2.js" />
+     <Compile Include="Assets\Scripts\EnemyAIBoss1.js" />
+     <Compile Include="Assets\Scripts\EnemyAIBoss2.js" />
+     <Compile Include="Assets\Scripts\EnemyAIBoss3.js" />
+     <Compile Include="Assets\Scripts\Exitdoor.js" />
+     <Compile Include="Assets\Scripts\FadeIn.js" />
+     <Compile Include="Assets\Scripts\FadeOut.js" />
+     <Compile Include="Assets\Scripts\FallDamage.js" />
+     <Compile Include="Assets\Scripts\FlashingLight.js" />
+     <Compile Include="Assets\Scripts\FlashingLightSlower.js" />
+     <Compile Include="Assets\Scripts\HelpMenuScript.js" />
+     <Compile Include="Assets\Scripts\MainMenuScript.js" />
+     <Compile Include="Assets\Scripts\MapMenuScript.js" />
+     <Compile Include="Assets\Scripts\Marketui(1).js" />
+     <Compile Include="Assets\Scripts\Marketui(2).js" />
+     <Compile Include="Assets\Scripts\Marketui(3).js" />
+     <Compile Include="Assets\Scripts\Movement.js" />
+     <Compile Include="Assets\Scripts\Platform.js" />
+     <Compile Include="Assets\Scripts\Platforms.js" />
+     <Compile Include="Assets\Scripts\PlayerShooting.js" />
+     <Compile Include="Assets\Scripts\ScrollingText.js" />
+     <Compile Include="Assets\Scripts\Scrollingtext3.js" />
+     <Compile Include="Assets\Scripts\Spawner.js" />
+     <Compile Include="Assets\Scripts\Stopmusic.js" />
+     <Compile Include="Assets\Scripts\Teleport.js" />
+     <Compile Include="Assets\Scripts\Teleport2.js" />
+     <Compile Include="Assets\Scripts\Time.js" />
+     <Compile Include="Assets\Scripts\Triggerplatform.js" />
+     <Compile Include="Assets\Scripts\Tutorial.js" />
+     <Compile Include="Assets\Scripts\WeaponCheck.js" />
+     <Compile Include="Assets\Scripts\cameramarket.js" />
+     <Compile Include="Assets\Scripts\draaiobject.js" />
+     <Compile Include="Assets\Scripts\draaiobject2.js" />
+     <Compile Include="Assets\Scripts\eindlvl2.js" />
+     <Compile Include="Assets\Scripts\endbos2.js" />
+     <Compile Include="Assets\Scripts\lighthover.js" />
+     <Compile Include="Assets\Scripts\loadlevel.js" />
+     <Compile Include="Assets\Scripts\lvl2intro.js" />
+     <Compile Include="Assets\Scripts\marketui.js" />
+     <Compile Include="Assets\Scripts\marketui1.js" />
+     <Compile Include="Assets\Scripts\marketui2.js" />
+     <Compile Include="Assets\Scripts\marketui3.js" />
+     <Compile Include="Assets\Scripts\save.js" />
+     <Compile Include="Assets\Scripts\savecharacter.js" />
+     <Compile Include="Assets\Scripts\shopclick.js" />
+     <Compile Include="Assets\Scripts\shopligt.js" />
+     <Compile Include="Assets\Scripts\shoplvlui.js" />
+     <Compile Include="Assets\Scripts\startlvlweapon.js" />
+     <Compile Include="Assets\Scripts\tardislvl2.js" />
+     <Compile Include="Assets\Scripts\teleporter1.js" />
+     <Compile Include="Assets\Scripts\teleporter2.js" />
+     <Compile Include="Assets\Scripts\transform0.js" />
+     <Compile Include="Assets\mapmarktmenu.js" />
+     <Compile Include="Assets\mapmenumarkt.js" />
+     <Compile Include="Assets\marktmap.js" />
+     <Compile Include="Assets\menu.js" />
+     <None Include="Assets\DarkWood\Earthborn Troll\Shader\Alpha_Texture.shader" />
+     <None Include="Assets\KBH_character\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\KBH_character\Materials\HiPoly\NewShader.shader" />
+     <None Include="Assets\Shaders\Fx\Rain.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\RealtimeReflectionInWaterFlow.shader" />
+     <None Include="Assets\Shaders\Fx\Cursor.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleAdditiveBlend.shader" />
+     <None Include="Assets\DarkWood\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
+     <None Include="Assets\Shaders\Fx\AdditiveBlend.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\RealtimeReflectionReplacement.shader" />
+     <None Include="Assets\Shaders\Fx\Additive.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
+     <None Include="Assets\Resources\HeightDepthOfField.shader" />
+     <None Include="Assets\Resources\BlurPassesForDof.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Shaders\Fx\ScreenRefract.shader" />
+     <None Include="Assets\Shaders\Fx\RainSplash.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\Fallback.shader" />
+     <None Include="Assets\Shaders\Fx\Multiply.shader" />
+     <None Include="Assets\Textures\Nobiax Free Textures 04\readme.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Shaders\Fx\Blend.shader" />
+     <None Include="Assets\Shaders\Fx\HeightFogBeforeTransparent.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\CharacterSelfIlluminationReflective.shader" />
+     <None Include="Assets\Resources\ColoredNoise.shader" />
+     <None Include="Assets\Shaders\Fx\InterlacePatternBlend.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
+     <None Include="Assets\Characters\fightBOT (free)\model\Materials\roboShader.shader" />
+     <None Include="Assets\GUI\Necromancer GUI\Kingthings.txt" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\EnemySelfIlluminationReflective.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\AngryInclude.cginc" />
+     <None Include="Assets\Resources\MobileBloom.shader" />
+     <None Include="Assets\KBH_character\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Flow Free\Shaders\Flow Free\Flow_Diffuse_Free_Mobile.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleMultiply.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleAdditive.shader" />
+     <None Include="Assets\_Works\Animated Soldier\animation.txt" />
+     <None Include="Assets\Elementals\!Readme.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\GUI\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\AlphaCutoutCheapFallback.shader" />
+     <None Include="Assets\Flow Free\Shaders\Flow Free\Flow_Diffuse_Free.shader" />
+     <None Include="Assets\Shaders\Fx\LaserScope.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\SHIELDS_square\square_wood_shields_notes.txt" />
+     <None Include="Assets\KBH_character\Readme.txt" />
+     <None Include="Assets\Standard Assets\shader\DifBumpSpecTransp.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleBlend.shader" />
+     <None Include="Assets\Gem Shader\diamond shader.shader" />
+     <None Include="Assets\Shaders\Fx\InterlacePatternAdditive.shader" />
+ <Reference Include="Flow">
+ <HintPath>Assets\Flow Free\Script\Flow.dll</HintPath>
+ </Reference>
+ <Reference Include="CoherentNoise">
+ <HintPath>Assets\WorldBuilder\Scripts\Helpers\CoherentNoise.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{07B7D2A5-E6B2-E778-54BE-FD3CD09149B8}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{AAB9627A-F99B-1A21-F954-B5773D0E73C2}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

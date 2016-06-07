@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 33b28ae69e501d743a7f432eaa5064b0
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Blue Glass
+    100002: Body
+    100004: Bulb
+    100006: Bulb fitting
+    100008: Clear Glass
+    100010: cupboard handle
+    100012: Door
+    100014: Door Blue Glass
+    100016: Door Clear Glass
+    100018: Door Frosted Glass
+    100020: Door Handle
+    100022: Door Window frame
+    100024: Frosted Glass
+    100026: Hinges
+    100028: Lamp Lens
+    100030: Lamp rods
+    100032: Lock
+    100034: Phone SIGN
+    100036: //RootNode
+    100038: POLICE PUBLIC CALL BOX
+    100040: Sign Black
+    100042: St John 2
+    100044: St John logo
+    100046: Window frames
+    400000: Blue Glass
+    400002: Body
+    400004: Bulb
+    400006: Bulb fitting
+    400008: Clear Glass
+    400010: cupboard handle
+    400012: Door
+    400014: Door Blue Glass
+    400016: Door Clear Glass
+    400018: Door Frosted Glass
+    400020: Door Handle
+    400022: Door Window frame
+    400024: Frosted Glass
+    400026: Hinges
+    400028: Lamp Lens
+    400030: Lamp rods
+    400032: Lock
+    400034: Phone SIGN
+    400036: //RootNode
+    400038: POLICE PUBLIC CALL BOX
+    400040: Sign Black
+    400042: St John 2
+    400044: St John logo
+    400046: Window frames
+    2300000: Blue Glass
+    2300002: Body
+    2300004: Bulb
+    2300006: Bulb fitting
+    2300008: Clear Glass
+    2300010: cupboard handle
+    2300012: Door
+    2300014: Door Blue Glass
+    2300016: Door Clear Glass
+    2300018: Door Frosted Glass
+    2300020: Door Handle
+    2300022: Door Window frame
+    2300024: Frosted Glass
+    2300026: Hinges
+    2300028: Lamp Lens
+    2300030: Lamp rods
+    2300032: Lock
+    2300034: Phone SIGN
+    2300036: POLICE PUBLIC CALL BOX
+    2300038: Sign Black
+    2300040: St John 2
+    2300042: St John logo
+    2300044: Window frames
+    3300000: Blue Glass
+    3300002: Body
+    3300004: Bulb
+    3300006: Bulb fitting
+    3300008: Clear Glass
+    3300010: cupboard handle
+    3300012: Door
+    3300014: Door Blue Glass
+    3300016: Door Clear Glass
+    3300018: Door Frosted Glass
+    3300020: Door Handle
+    3300022: Door Window frame
+    3300024: Frosted Glass
+    3300026: Hinges
+    3300028: Lamp Lens
+    3300030: Lamp rods
+    3300032: Lock
+    3300034: Phone SIGN
+    3300036: POLICE PUBLIC CALL BOX
+    3300038: Sign Black
+    3300040: St John 2
+    3300042: St John logo
+    3300044: Window frames
+    4300000: Body
+    4300002: Lamp Lens
+    4300004: Bulb
+    4300006: Bulb fitting
+    4300008: Lamp rods
+    4300010: Window frames
+    4300012: Blue Glass
+    4300014: Frosted Glass
+    4300016: Clear Glass
+    4300018: POLICE PUBLIC CALL BOX
+    4300020: Sign Black
+    4300022: Hinges
+    4300024: cupboard handle
+    4300026: Phone SIGN
+    4300028: Door
+    4300030: Lock
+    4300032: Door Handle
+    4300034: Door Clear Glass
+    4300036: Door Blue Glass
+    4300038: Door Frosted Glass
+    4300040: Door Window frame
+    4300042: St John 2
+    4300044: St John logo
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
